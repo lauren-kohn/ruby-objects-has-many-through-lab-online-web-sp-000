@@ -24,4 +24,10 @@ class Artist
     end 
   end
   
+  def genres 
+    songs.collect do |s|
+      s.genre 
+    end 
+  end
+  
 end 
