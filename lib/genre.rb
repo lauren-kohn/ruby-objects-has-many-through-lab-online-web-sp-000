@@ -25,3 +25,6 @@ class Genre
     end 
     musicians
   end
+  
+end  
+  
