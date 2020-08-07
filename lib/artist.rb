@@ -25,9 +25,10 @@ class Artist
   end
   
   def genres 
-    songs.collect do |s|
+    types = songs.collect do |s|
       s.genre 
     end 
+    types
   end
   
 end 
